@@ -18,3 +18,13 @@ console.log('age', age, typeof age);
 const ageNumber = parseInt(age);
 console.log('ageNumber', ageNumber, typeof ageNumber);
 
+const price = (km * 0.21);
+console.log('price', price, typeof price);
+
+if (ageNumber < 18) {
+    const discount = (price / 100) * 20;
+    console.log('discount', discount, typeof discount);
+
+    const discountedTicket = (price - discount);
+    console.log('discountedTicket', discountedTicket, typeof discountedTicket);
+}
